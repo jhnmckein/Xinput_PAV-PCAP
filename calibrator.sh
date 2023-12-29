@@ -38,7 +38,7 @@
       fi
   elif [ "$answer1" == "3" ]; then
   ##Обновление xinput
-  apt-get update && apt-get install xinput && apt-get install xinput-calibrator
+  apt-get update && apt-get install xinput -y && apt-get install xinput-calibrator -y
   elif [ "$answer1" == "4" ]; then
   exit
   else
